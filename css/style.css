@@ -97,7 +97,7 @@ body {
 }
 
 .timeline__icon {
-  --timeline-icon-dimensions: 45px;
+  --timeline-icon-dimensions: 75px;
 
   position: relative;
   display: block;
@@ -117,7 +117,7 @@ body {
 
 @media(min-width: 700px) {
   .timeline__icon {
-      --timeline-icon-dimensions: 60px;
+      --timeline-icon-dimensions: 75px;
 
       margin-bottom: 30px;
   }
@@ -587,6 +587,12 @@ timeline__slide .img1{
 
 @media (min-width: 1024px) {
   .para{
-    height: 100px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 699px) and (max-width: 711px) {
+  .para {
+    height: 175px;
   }
 }
